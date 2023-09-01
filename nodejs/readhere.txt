@@ -1,0 +1,15 @@
+use npm init -y or npm init if you want to input to package.json
+use npm i or install to install when there is library on package.json
+use npm i <name of library> <second name of library>//if you want 2
+or more library
+use npm uninstall to uninstall the library
+replace scripts with below
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devstart": "node --watch server.js"
+  },
+and run npm run start or devstart
+ctrl + c when stop the cmd
+type cmd to open cmd at filesxplorers address bar
+code . when opening vscode
